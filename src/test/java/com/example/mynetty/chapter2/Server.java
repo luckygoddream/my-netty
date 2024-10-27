@@ -27,7 +27,6 @@ public class Server {
         ssc.configureBlocking(false);
         //2.绑定监听端口
         ssc.bind(new InetSocketAddress(8080));
-
         //3.连接集合
         ArrayList<SocketChannel> channels = new ArrayList<>();
 
@@ -43,7 +42,6 @@ public class Server {
             for (SocketChannel channel : channels) {
                 // log.debug("before read...{}", channel);
                 //5.接受客户端发送的数据
-
                 int read = channel.read(buffer);//默认阻塞的 线程也会停止运行，设置为非阻塞，线程不会停，未读到数据，返回0
                 if (read > 0) {
                     buffer.flip();
