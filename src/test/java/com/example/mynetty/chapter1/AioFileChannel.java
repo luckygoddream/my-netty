@@ -1,4 +1,4 @@
-package com.example.mynetty.chapter2;
+package com.example.mynetty.chapter1;
 
 import lombok.extern.slf4j.Slf4j;
 

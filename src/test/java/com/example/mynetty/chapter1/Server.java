@@ -1,6 +1,5 @@
-package com.example.mynetty.chapter2;
+package com.example.mynetty.chapter1;
 
-import com.example.mynetty.chapter1.ByteBufferUtil;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
