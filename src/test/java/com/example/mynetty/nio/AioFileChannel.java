@@ -1,4 +1,4 @@
-package com.example.mynetty.chapter1;
+package com.example.mynetty.nio;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,7 +9,7 @@ import java.nio.channels.CompletionHandler;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
-import static com.example.mynetty.chapter1.ByteBufferUtil.debugAll;
+import static com.example.mynetty.nio.ByteBufferUtil.debugAll;
 
 @Slf4j
 public class AioFileChannel {

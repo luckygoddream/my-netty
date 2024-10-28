@@ -1,4 +1,4 @@
-package com.example.mynetty.chapter1;
+package com.example.mynetty.nio;
 
 import io.netty.util.internal.MathUtil;
 import io.netty.util.internal.StringUtil;

@@ -1,4 +1,4 @@
-package com.example.mynetty.chapter1;
+package com.example.mynetty.nio;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
